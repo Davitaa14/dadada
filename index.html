@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rentify - Peer-to-Peer Rental Marketplace</title>
+  <meta name="description" content="Rent anything you need or list your items for rent and earn passive income. Fast, safe, and local.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="app.css">
+  
+  <!-- Favicon Mock -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔄</text></svg>">
+</head>
+<body>
+
+  <!-- Sticky Global Navigation Header -->
+  <header class="glass">
+    <div class="nav-container">
+      <!-- Generated dynamically by app.js -->
+    </div>
+  </header>
+
+  <!-- Main Application Wrapper -->
+  <main class="app-content">
+    
+    <!-- View 1: Main Product Feed & Search -->
+    <section id="listings-view">
+      <!-- Hero Banner -->
+      <div class="hero" id="hero-section">
+        <!-- Generated dynamically by app.js -->
+      </div>
+
+      <!-- Categories Filter Row -->
+      <div class="categories-container" id="categories-container">
+        <!-- Generated dynamically by app.js -->
+      </div>
+
+      <!-- Grid Header -->
+      <div class="listings-header">
+        <h2 id="listings-count-label" style="font-weight: 700; letter-spacing: -0.5px;">Latest Listings</h2>
+      </div>
+
+      <!-- Listings Cards Grid -->
+      <div class="listings-grid" id="listings-grid">
+        <!-- Generated dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- View 2: Lender & Renter Dashboard -->
+    <section id="dashboard-view" class="hidden">
+      <!-- Generated dynamically by app.js -->
+    </section>
+
+  </main>
+
+  <!-- Modal 1: User Login / Registration Overlay -->
+  <div class="modal-overlay">
+    <div class="modal-container glass" id="auth-modal">
+      <!-- Generated dynamically by app.js -->
+    </div>
+  </div>
+
+  <!-- Modal 2: Add Listing Form Overlay -->
+  <div class="modal-overlay">
+    <div class="modal-container glass" id="add-listing-modal">
+      <!-- Generated dynamically by app.js -->
+    </div>
+  </div>
+
+  <!-- Modal 3: Item Deep-dive Details Overlay -->
+  <div class="modal-overlay">
+    <div class="modal-container glass" id="details-modal">
+      <!-- Generated dynamically by app.js -->
+    </div>
+  </div>
+
+  <!-- Modal 4: Mock Credit Card Checkout Overlay -->
+  <div class="modal-overlay">
+    <div class="modal-container glass" id="payment-modal">
+      <!-- Generated dynamically by app.js -->
+    </div>
+  </div>
+
+  <!-- Lucide Icons Library (CDN) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Core Application Scripts -->
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
